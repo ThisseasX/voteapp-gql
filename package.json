@@ -1,0 +1,24 @@
+{
+  "name": "voteapp-gql",
+  "version": "1.0.0",
+  "description": "Experimenting with GraphQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r dotenv/config -r esm index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "graphql-yoga": "^1.18.3",
+    "lodash": "^4.17.15",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
